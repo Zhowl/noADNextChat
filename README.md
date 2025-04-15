@@ -94,317 +94,314 @@ docker-compose up -d
 
 ## 功能特性
 
-- **Deploy for free with one-click** on Vercel in under 1 minute
-- Compact client (~5MB) on Linux/Windows/MacOS, [download it now](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
-- Fully compatible with self-deployed LLMs, recommended for use with [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) or [LocalAI](https://github.com/go-skynet/LocalAI)
-- Privacy first, all data is stored locally in the browser
-- Markdown support: LaTex, mermaid, code highlight, etc.
-- Responsive design, dark mode and PWA
-- Fast first screen loading speed (~100kb), support streaming response
-- New in v2: create, share and debug your chat tools with prompt templates (mask)
-- Awesome prompts powered by [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) and [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
-- Automatically compresses chat history to support long conversations while also saving your tokens
-- I18n: English, 简体中文, 繁体中文, 日本語, Français, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština, 한국어, Indonesia
+- **一键免费部署**：在Vercel上不到1分钟即可完成部署
+- **紧凑的客户端**（约5MB），支持Linux/Windows/MacOS，[立即下载](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
+- **完全兼容自部署LLM**，推荐与[RWKV-Runner](https://github.com/josStorer/RWKV-Runner)或[LocalAI](https://github.com/go-skynet/LocalAI)一起使用
+- **隐私优先**，所有数据均存储在浏览器本地
+- **支持Markdown**：包括LaTex、mermaid、代码高亮等
+- **响应式设计**，支持暗黑模式和PWA
+- **快速首屏加载速度**（约100kb），支持流式响应
+- **v2新功能**：通过提示模板（mask）创建、分享和调试您的聊天工具
+- **由[awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)和[awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)提供强大提示词
+- **自动压缩聊天历史**，支持长对话同时节省您的token
+- **国际化支持**：英语、简体中文、繁体中文、日语、法语、西班牙语、意大利语、土耳其语、德语、越南语、俄语、捷克语、韩语、印尼语
 
-## Roadmap
+## 路线图
 
-- [x] System Prompt: pin a user defined prompt as system prompt [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
-- [x] User Prompt: user can edit and save custom prompts to prompt list
-- [x] Prompt Template: create a new chat with pre-defined in-context prompts [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
-- [x] Share as image, share to ShareGPT [#1741](https://github.com/Yidadaa/ChatGPT-Next-Web/pull/1741)
-- [x] Desktop App with tauri
-- [x] Self-host Model: Fully compatible with [RWKV-Runner](https://github.com/josStorer/RWKV-Runner), as well as server deployment of [LocalAI](https://github.com/go-skynet/LocalAI): llama/gpt4all/rwkv/vicuna/koala/gpt4all-j/cerebras/falcon/dolly etc.
-- [x] Artifacts: Easily preview, copy and share generated content/webpages through a separate window [#5092](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/pull/5092)
-- [x] Plugins: support network search, calculator, any other apis etc. [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165) [#5353](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5353)
-  - [x] network search, calculator, any other apis etc. [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165) [#5353](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5353)
-- [x] Supports Realtime Chat [#5672](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5672)
-- [ ] local knowledge base
+- [x] 系统提示：将用户定义的提示固定为系统提示 [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
+- [x] 用户提示：用户可以编辑并保存自定义提示到提示列表
+- [x] 提示模板：使用预定义的上下文提示创建新聊天 [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
+- [x] 分享为图片，分享到ShareGPT [#1741](https://github.com/Yidadaa/ChatGPT-Next-Web/pull/1741)
+- [x] 桌面应用，使用tauri
+- [x] 自托管模型：完全兼容[RWKV-Runner](https://github.com/josStorer/RWKV-Runner)，以及[LocalAI](https://github.com/go-skynet/LocalAI)的服务器部署：llama/gpt4all/rwkv/vicuna/koala/gpt4all-j/cerebras/falcon/dolly等
+- [x] 工件：通过单独的窗口轻松预览、复制和分享生成的内容/网页 [#5092](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/pull/5092)
+- [x] 插件：支持网络搜索、计算器和其他API等 [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165) [#5353](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5353)
+  - [x] 网络搜索、计算器和其他API等 [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165) [#5353](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5353)
+- [x] 支持实时聊天 [#5672](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5672)
+- [ ] 本地知识库
 
-## What's New
-- 🚀 v2.15.8 Now supports Realtime Chat [#5672](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5672)
-- 🚀 v2.15.4 The Application supports using Tauri fetch LLM API, MORE SECURITY! [#5379](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5379)
-- 🚀 v2.15.0 Now supports Plugins! Read this: [NextChat-Awesome-Plugins](https://github.com/ChatGPTNextWeb/NextChat-Awesome-Plugins)
-- 🚀 v2.14.0 Now supports  Artifacts & SD 
-- 🚀 v2.10.1 support Google Gemini Pro model.
-- 🚀 v2.9.11 you can use azure endpoint now.
-- 🚀 v2.8 now we have a client that runs across all platforms!
-- 🚀 v2.7 let's share conversations as image, or share to ShareGPT!
-- 🚀 v2.0 is released, now you can create prompt templates, turn your ideas into reality! Read this: [ChatGPT Prompt Engineering Tips: Zero, One and Few Shot Prompting](https://www.allabtai.com/prompt-engineering-tips-zero-one-and-few-shot-prompting/).
+## 最新动态
+- 🚀 v2.15.8 现在支持实时聊天 [#5672](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5672)
+- 🚀 v2.15.4 应用程序支持使用Tauri获取LLM API，更加安全！[#5379](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/5379)
+- 🚀 v2.15.0 现在支持插件！阅读此内容：[NextChat-Awesome-Plugins](https://github.com/ChatGPTNextWeb/NextChat-Awesome-Plugins)
+- 🚀 v2.14.0 现在支持工件和SD
+- 🚀 v2.10.1 支持Google Gemini Pro模型
+- 🚀 v2.9.11 现在可以使用azure端点
+- 🚀 v2.8 现在我们有一个跨平台运行的客户端！
+- 🚀 v2.7 让我们分享对话为图片，或分享到ShareGPT！
+- 🚀 v2.0 发布，现在您可以创建提示模板，将您的想法变为现实！阅读此内容：[ChatGPT Prompt Engineering Tips: Zero, One and Few Shot Prompting](https://www.allabtai.com/prompt-engineering-tips-zero-one-and-few-shot-prompting/)
 
-## Get Started
+## 开始使用
 
-1. Get [OpenAI API Key](https://platform.openai.com/account/api-keys);
-2. Click
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web), remember that `CODE` is your page password;
-3. Enjoy :)
+1. 获取[OpenAI API Key](https://platform.openai.com/account/api-keys)；
+2. 点击
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)，记住`CODE`是您的页面密码；
+3. 享受吧 :)
 
-## FAQ
+## 常见问题
 
-[English > FAQ](./docs/faq-en.md)
+[简体中文 > 常见问题](./docs/faq-cn.md)
 
-## Keep Updated
+## 保持更新
 
-If you have deployed your own project with just one click following the steps above, you may encounter the issue of "Updates Available" constantly showing up. This is because Vercel will create a new project for you by default instead of forking this project, resulting in the inability to detect updates correctly.
+如果您按照上述步骤一键部署了自己的项目，可能会遇到“有更新可用”不断显示的问题。这是因为Vercel默认会为您创建一个新项目，而不是fork此项目，导致无法正确检测更新。
 
-We recommend that you follow the steps below to re-deploy:
+我们建议您按照以下步骤重新部署：
 
-- Delete the original repository;
-- Use the fork button in the upper right corner of the page to fork this project;
-- Choose and deploy in Vercel again, [please see the detailed tutorial](./docs/vercel-cn.md).
+- 删除原始仓库；
+- 使用页面右上角的fork按钮fork此项目；
+- 再次在Vercel中选择并部署，[请查看详细教程](./docs/vercel-cn.md)。
 
-### Enable Automatic Updates
+### 启用自动更新
 
-> If you encounter a failure of Upstream Sync execution, please [manually update code](./README.md#manually-updating-code).
+> 如果您遇到上游同步执行失败，请[手动更新代码](./README.md#手动更新代码)。
 
-After forking the project, due to the limitations imposed by GitHub, you need to manually enable Workflows and Upstream Sync Action on the Actions page of the forked project. Once enabled, automatic updates will be scheduled every hour:
+fork项目后，由于GitHub的限制，您需要在fork项目的Actions页面手动启用Workflows和Upstream Sync Action。启用后，将每小时安排自动更新：
 
-![Automatic Updates](./docs/images/enable-actions.jpg)
+![自动更新](./docs/images/enable-actions.jpg)
 
-![Enable Automatic Updates](./docs/images/enable-actions-sync.jpg)
+![启用自动更新](./docs/images/enable-actions-sync.jpg)
 
-### Manually Updating Code
+### 手动更新代码
 
-If you want to update instantly, you can check out the [GitHub documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) to learn how to synchronize a forked project with upstream code.
+如果您想立即更新，可以查看[GitHub文档](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)，了解如何将fork的项目与上游代码同步。
 
-You can star or watch this project or follow author to get release notifications in time.
+您可以star或watch此项目，或关注作者以便及时获取发布通知。
 
-## Access Password
+## 访问密码
 
-This project provides limited access control. Please add an environment variable named `CODE` on the vercel environment variables page. The value should be passwords separated by comma like this:
+此项目提供有限的访问控制。请在vercel环境变量页面添加一个名为`CODE`的环境变量。值应为用逗号分隔的密码，如下所示：
 
 ```
 code1,code2,code3
 ```
 
-After adding or modifying this environment variable, please redeploy the project for the changes to take effect.
+添加或修改此环境变量后，请重新部署项目以使更改生效。
 
-## Environment Variables
+## 环境变量
 
-### `CODE` (optional)
+### `CODE` (可选)
 
-Access password, separated by comma.
+访问密码，用逗号分隔。
 
-### `OPENAI_API_KEY` (required)
+### `OPENAI_API_KEY` (必需)
 
-Your openai api key, join multiple api keys with comma.
+您的openai api密钥，用逗号连接多个api密钥。
 
-### `BASE_URL` (optional)
+### `BASE_URL` (可选)
 
-> Default: `https://api.openai.com`
+> 默认值：`https://api.openai.com`
 
-> Examples: `http://your-openai-proxy.com`
+> 示例：`http://your-openai-proxy.com`
 
-Override openai api request base url.
+覆盖openai api请求基础url。
 
-### `OPENAI_ORG_ID` (optional)
+### `OPENAI_ORG_ID` (可选)
 
-Specify OpenAI organization ID.
+指定OpenAI组织ID。
 
-### `AZURE_URL` (optional)
+### `AZURE_URL` (可选)
 
-> Example: https://{azure-resource-url}/openai
+> 示例：https://{azure-resource-url}/openai
 
-Azure deploy url.
+Azure部署url。
 
-### `AZURE_API_KEY` (optional)
+### `AZURE_API_KEY` (可选)
 
-Azure Api Key.
+Azure Api密钥。
 
-### `AZURE_API_VERSION` (optional)
+### `AZURE_API_VERSION` (可选)
 
-Azure Api Version, find it at [Azure Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions).
+Azure Api版本，可在[Azure文档](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)中找到。
 
-### `GOOGLE_API_KEY` (optional)
+### `GOOGLE_API_KEY` (可选)
 
-Google Gemini Pro Api Key.
+Google Gemini Pro Api密钥。
 
-### `GOOGLE_URL` (optional)
+### `GOOGLE_URL` (可选)
 
-Google Gemini Pro Api Url.
+Google Gemini Pro Api Url。
 
-### `ANTHROPIC_API_KEY` (optional)
+### `ANTHROPIC_API_KEY` (可选)
 
-anthropic claude Api Key.
+anthropic claude Api密钥。
 
-### `ANTHROPIC_API_VERSION` (optional)
+### `ANTHROPIC_API_VERSION` (可选)
 
-anthropic claude Api version.
+anthropic claude Api版本。
 
-### `ANTHROPIC_URL` (optional)
+### `ANTHROPIC_URL` (可选)
 
-anthropic claude Api Url.
+anthropic claude Api Url。
 
-### `BAIDU_API_KEY` (optional)
+### `BAIDU_API_KEY` (可选)
 
-Baidu Api Key.
+百度Api密钥。
 
-### `BAIDU_SECRET_KEY` (optional)
+### `BAIDU_SECRET_KEY` (可选)
 
-Baidu Secret Key.
+百度Secret密钥。
 
-### `BAIDU_URL` (optional)
+### `BAIDU_URL` (可选)
 
-Baidu Api Url.
+百度Api Url。
 
-### `BYTEDANCE_API_KEY` (optional)
+### `BYTEDANCE_API_KEY` (可选)
 
-ByteDance Api Key.
+字节跳动Api密钥。
 
-### `BYTEDANCE_URL` (optional)
+### `BYTEDANCE_URL` (可选)
 
-ByteDance Api Url.
+字节跳动Api Url。
 
-### `ALIBABA_API_KEY` (optional)
+### `ALIBABA_API_KEY` (可选)
 
-Alibaba Cloud Api Key.
+阿里云Api密钥。
 
-### `ALIBABA_URL` (optional)
+### `ALIBABA_URL` (可选)
 
-Alibaba Cloud Api Url.
+阿里云Api Url。
 
-### `IFLYTEK_URL` (Optional)
+### `IFLYTEK_URL` (可选)
 
-iflytek Api Url.
+讯飞Api Url。
 
-### `IFLYTEK_API_KEY` (Optional)
+### `IFLYTEK_API_KEY` (可选)
 
-iflytek Api Key.
+讯飞Api密钥。
 
-### `IFLYTEK_API_SECRET` (Optional)
+### `IFLYTEK_API_SECRET` (可选)
 
-iflytek Api Secret.
+讯飞Api Secret。
 
-### `CHATGLM_API_KEY` (optional)
+### `CHATGLM_API_KEY` (可选)
 
-ChatGLM Api Key.
+ChatGLM Api密钥。
 
-### `CHATGLM_URL` (optional)
+### `CHATGLM_URL` (可选)
 
-ChatGLM Api Url.
+ChatGLM Api Url。
 
-### `DEEPSEEK_API_KEY` (optional)
+### `DEEPSEEK_API_KEY` (可选)
 
-DeepSeek Api Key.
+DeepSeek Api密钥。
 
-### `DEEPSEEK_URL` (optional)
+### `DEEPSEEK_URL` (可选)
 
-DeepSeek Api Url.
+DeepSeek Api Url。
 
-### `HIDE_USER_API_KEY` (optional)
+### `HIDE_USER_API_KEY` (可选)
 
-> Default: Empty
+> 默认值：空
 
-If you do not want users to input their own API key, set this value to 1.
+如果您不希望用户输入自己的API密钥，请将此值设置为1。
 
-### `DISABLE_GPT4` (optional)
+### `DISABLE_GPT4` (可选)
 
-> Default: Empty
+> 默认值：空
 
-If you do not want users to use GPT-4, set this value to 1.
+如果您不希望用户使用GPT-4，请将此值设置为1。
 
-### `ENABLE_BALANCE_QUERY` (optional)
+### `ENABLE_BALANCE_QUERY` (可选)
 
-> Default: Empty
+> 默认值：空
 
-If you do want users to query balance, set this value to 1.
+如果您希望用户查询余额，请将此值设置为1。
 
-### `DISABLE_FAST_LINK` (optional)
+### `DISABLE_FAST_LINK` (可选)
 
-> Default: Empty
+> 默认值：空
 
-If you want to disable parse settings from url, set this to 1.
+如果您想禁用从url解析设置，请将此值设置为1。
 
-### `CUSTOM_MODELS` (optional)
+### `CUSTOM_MODELS` (可选)
 
-> Default: Empty
-> Example: `+llama,+claude-2,-gpt-3.5-turbo,gpt-4-1106-preview=gpt-4-turbo` means add `llama, claude-2` to model list, and remove `gpt-3.5-turbo` from list, and display `gpt-4-1106-preview` as `gpt-4-turbo`.
+> 默认值：空
+> 示例：`+llama,+claude-2,-gpt-3.5-turbo,gpt-4-1106-preview=gpt-4-turbo` 表示将`llama, claude-2`添加到模型列表中，并从列表中移除`gpt-3.5-turbo`，并将`gpt-4-1106-preview`显示为`gpt-4-turbo`。
 
-To control custom models, use `+` to add a custom model, use `-` to hide a model, use `name=displayName` to customize model name, separated by comma.
+控制自定义模型，使用`+`添加自定义模型，使用`-`隐藏模型，使用`name=displayName`自定义模型名称，用逗号分隔。
 
-User `-all` to disable all default models, `+all` to enable all default models.
+使用`-all`禁用所有默认模型，`+all`启用所有默认模型。
 
-For Azure: use `modelName@Azure=deploymentName` to customize model name and deployment name.
-> Example: `+gpt-3.5-turbo@Azure=gpt35` will show option `gpt35(Azure)` in model list.
-> If you only can use Azure model, `-all,+gpt-3.5-turbo@Azure=gpt35` will `gpt35(Azure)` the only option in model list.
+对于Azure：使用`modelName@Azure=deploymentName`自定义模型名称和部署名称。
+> 示例：`+gpt-3.5-turbo@Azure=gpt35` 将在模型列表中显示选项`gpt35(Azure)`。
+> 如果您只能使用Azure模型，`-all,+gpt-3.5-turbo@Azure=gpt35` 将使`gpt35(Azure)`成为模型列表中的唯一选项。
 
-For ByteDance: use `modelName@bytedance=deploymentName` to customize model name and deployment name.
-> Example: `+Doubao-lite-4k@bytedance=ep-xxxxx-xxx` will show option `Doubao-lite-4k(ByteDance)` in model list.
+对于字节跳动：使用`modelName@bytedance=deploymentName`自定义模型名称和部署名称。
+> 示例：`+Doubao-lite-4k@bytedance=ep-xxxxx-xxx` 将在模型列表中显示选项`Doubao-lite-4k(ByteDance)`。
 
-### `DEFAULT_MODEL` （optional）
+### `DEFAULT_MODEL` （可选）
 
-Change default model
+更改默认模型
 
-### `VISION_MODELS` (optional)
+### `VISION_MODELS` (可选)
 
-> Default: Empty
-> Example: `gpt-4-vision,claude-3-opus,my-custom-model` means add vision capabilities to these models in addition to the default pattern matches (which detect models containing keywords like "vision", "claude-3", "gemini-1.5", etc).
+> 默认值：空
+> 示例：`gpt-4-vision,claude-3-opus,my-custom-model` 表示除了默认模式匹配外（检测包含“vision”、“claude-3”、“gemini-1.5”等关键字的模型），还为这些模型添加视觉功能。
 
-Add additional models to have vision capabilities, beyond the default pattern matching. Multiple models should be separated by commas.
+为默认模式匹配之外的模型添加视觉功能，多个模型用逗号分隔。
 
-### `WHITE_WEBDAV_ENDPOINTS` (optional)
+### `WHITE_WEBDAV_ENDPOINTS` (可选)
 
-You can use this option if you want to increase the number of webdav service addresses you are allowed to access, as required by the format：
-- Each address must be a complete endpoint 
+如果您想增加允许访问的webdav服务地址数量，可以使用此选项，按格式要求：
+- 每个地址必须是完整的端点
 > `https://xxxx/yyy`
-- Multiple addresses are connected by ', '
+- 多个地址用','连接
 
-### `DEFAULT_INPUT_TEMPLATE` (optional)
+### `DEFAULT_INPUT_TEMPLATE` (可选)
 
-Customize the default template used to initialize the User Input Preprocessing configuration item in Settings.
+自定义用于初始化设置中用户输入预处理配置项的默认模板。
 
-### `STABILITY_API_KEY` (optional)
+### `STABILITY_API_KEY` (可选)
 
-Stability API key.
+Stability API密钥。
 
-### `STABILITY_URL` (optional)
+### `STABILITY_URL` (可选)
 
-Customize Stability API url.
+自定义Stability API url。
 
+### `ENABLE_MCP` (可选)
 
-### `ENABLE_MCP` (optional)
+启用MCP（模型上下文协议）功能
 
-Enable MCP（Model Context Protocol）Feature
+### `SILICONFLOW_API_KEY` (可选)
 
-### `SILICONFLOW_API_KEY` (optional)
+SiliconFlow API密钥。
 
-SiliconFlow API Key.
+### `SILICONFLOW_URL` (可选)
 
-### `SILICONFLOW_URL` (optional)
+SiliconFlow API URL。
 
-SiliconFlow API URL.
-
-## Requirements
+## 要求
 
 NodeJS >= 18, Docker >= 20
 
-## Development
-
+## 开发
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
-Before starting development, you must create a new `.env.local` file at project root, and place your api key into it:
+在开始开发之前，您必须在项目根目录创建一个新的`.env.local`文件，并将您的api密钥放入其中：
 
 ```
 OPENAI_API_KEY=<your api key here>
 
-# if you are not able to access openai service, use this BASE_URL
+# 如果您无法访问openai服务，请使用此BASE_URL
 BASE_URL=https://chatgpt1.nextweb.fun/api/proxy
 ```
 
-### Local Development
+### 本地开发
 
 ```shell
-# 1. install nodejs and yarn first
-# 2. config local env vars in `.env.local`
-# 3. run
+# 1. 首先安装nodejs和yarn
+# 2. 在`.env.local`中配置本地环境变量
+# 3. 运行
 yarn install
 yarn dev
 ```
 
-## Deployment
+## 部署
 
-
-### Docker (Recommended)
+### Docker (推荐)
 
 ```shell
 docker pull yidadaa/qunqinchat
@@ -453,35 +450,31 @@ docker run -d -p 3000:3000 \
 bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
 ```
 
-## Synchronizing Chat Records (UpStash)
+## 同步聊天记录 (UpStash)
 
 | [简体中文](./docs/synchronise-chat-logs-cn.md) | [English](./docs/synchronise-chat-logs-en.md) | [Italiano](./docs/synchronise-chat-logs-es.md) | [日本語](./docs/synchronise-chat-logs-ja.md) | [한국어](./docs/synchronise-chat-logs-ko.md)
 
-## Documentation
+## 文档
 
-> Please go to the [docs][./docs] directory for more documentation instructions.
+> 请前往[docs][./docs]目录查看更多文档说明。
 
-- [Deploy with cloudflare (Deprecated)](./docs/cloudflare-pages-en.md)
-- [Frequent Ask Questions](./docs/faq-en.md)
-- [How to add a new translation](./docs/translation.md)
-- [How to use Vercel (No English)](./docs/vercel-cn.md)
-- [User Manual (Only Chinese, WIP)](./docs/user-manual-cn.md)
+- [使用cloudflare部署（已弃用）](./docs/cloudflare-pages-cn.md)
+- [常见问题](./docs/faq-cn.md)
+- [如何添加新翻译](./docs/translation.md)
+- [如何使用Vercel](./docs/vercel-cn.md)
+- [用户手册（仅中文，WIP）](./docs/user-manual-cn.md)
 
+## 翻译
 
+如果您想添加新的翻译，请阅读此[文档](./docs/translation.md)。
 
-## Translation
+## 捐款
 
-If you want to add a new translation, read this [document](./docs/translation.md).
+[请我喝咖啡](https://www.buymeacoffee.com/yidadaa)
 
-## Donation
+## 特别感谢
 
-[Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
-
-## Special Thanks
-
-
-
-### Contributors
+### 贡献者
 
 <a href="https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ChatGPTNextWeb/ChatGPT-Next-Web" />
