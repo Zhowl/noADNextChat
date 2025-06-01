@@ -24,7 +24,7 @@ const cn = {
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
-    SaasTips: " ",
+    SaasTips: "配置太麻烦，直接访问Gemini官网",
     TopTips:
       "欢迎使用 AI.SciSurf",
   },
